@@ -10,9 +10,15 @@ namespace Donguler
             string kurs2 = "Programlamaya başlangıç için temel kurs";
             string kurs3 = "Java";
             //bunları tek tek yazmak yerine diziler de tanımlıyoruz. *DİZİ *ARRAY
-            string[] kurslar = new string[] { "Yazılım Geliştirici Yetiştirme Kampı" , "Programlamaya başlangıç için temel kurs" , "Java" };
-            
-            for (int i = 0; i<kurslar.Length; i++)
+            string[] kurslar = new string[] { "Yazılım Geliştirici Yetiştirme Kampı" , "Programlamaya başlangıç için temel kurs" , "Java" , "Python" };
+            //string[] kurslar = kurlariGetir();   gerçek hayatta bu şekilde yazılır    *kurlariGetir(); bu bir arraydir. bir veri kaynağından gelir.
+
+            for (int i = 0; i < kurslar.Length; i++)
+            {
+                Console.WriteLine(kurslar[i]);
+            }
+
+            for (int i = 0; i<3; i++)
             {
                 Console.WriteLine(kurslar[i]);
             }

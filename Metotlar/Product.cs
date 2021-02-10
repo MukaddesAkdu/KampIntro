@@ -4,8 +4,9 @@ using System.Text;
 
 namespace Metotlar
 {
-    class Urun
+    class Product
     {
+        //bir ürünün ürün olabilmesi için çeşitli özellikleri barındırması lazım.
         public int Id { get; set; }
         public string Adi { get; set; }
         public double Fiyati { get; set; }
