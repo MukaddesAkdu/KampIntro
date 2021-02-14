@@ -23,5 +23,19 @@ namespace GenericsIntro
 
             items[items.Length - 1] = item;
         }
+
+        //aşağıdaki kısımlar sadece test etmek için yazıldı. 
+        //eleman sayısını verir:
+        public int Length
+        {
+            get { return items.Length; }
+        }
+
+        //elemanları görmek için şu yapılır:
+        public T[] Items
+
+        {
+            get { return items; }
+        }
     }
 }
